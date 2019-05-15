@@ -8,11 +8,23 @@ div{
   transition: all 0.5s;
   display: flex;
   flex: 1;
-  border-radius: 100%
+  border-radius: 100%;
+  background: white;
 }
 .red{
   width: 100vh; /* vh:屏幕高度，vw:屏幕宽度 */
   height: 100vh; 
+}
+.purple{
+  position: relative;
+}
+span{
+  position: absolute;
+  left: 35%;
+  right: 35%;
+  top: 45%;
+  bottom: 45%;
+  white-space: nowrap;
 }
 .red.active{
   background: red;
